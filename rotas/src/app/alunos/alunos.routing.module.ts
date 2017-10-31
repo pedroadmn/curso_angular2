@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
 const alunosRoutes: Routes = [
-    { path: 'alunos', component: AlunosComponent, children: [
+    { path: '', component: AlunosComponent, children: [
         { path: 'novo', component: AlunoFormComponent },
         { path: ':id', component: AlunoDetalheComponent },
         { path: ':id/editar', component: AlunoFormComponent }

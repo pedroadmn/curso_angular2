@@ -1,5 +1,5 @@
-import { AlunosModule } from './alunos/alunos.module';
-import { CursosModule } from './cursos/cursos.module';
+//import { AlunosModule } from './alunos/alunos.module';
+//import { CursosModule } from './cursos/cursos.module';
 import { AppRoutingModule } from './app.routing.module';
 //import { routing } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
@@ -24,9 +24,9 @@ import { MaterializeModule } from "angular2-materialize";
     HttpModule,
     //routing,
     MaterializeModule,
-    AppRoutingModule,
-    CursosModule,
-    AlunosModule
+    AppRoutingModule
+    //CursosModule,
+    //AlunosModule
   ],
   providers: [
   ],
