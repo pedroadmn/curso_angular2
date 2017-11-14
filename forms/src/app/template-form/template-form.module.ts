@@ -1,3 +1,4 @@
+import { CampoControlErrorComponent } from './../campo-control-error/campo-control-error.component';
 import { FormDebugComponent } from './../form-debug/form-debug.component';
 import { FormsModule } from '@angular/forms';
 import { TemplateFormComponent } from './template-form.component';
@@ -11,7 +12,8 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: [
     TemplateFormComponent,
-    FormDebugComponent
+    FormDebugComponent,
+    CampoControlErrorComponent
   ]
 })
 export class TemplateFormModule { }
